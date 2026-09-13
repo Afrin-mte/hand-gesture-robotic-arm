@@ -11,9 +11,9 @@
 A camera watches your hand, MediaPipe turns it into 21 landmarks, and an ESP32 turns those landmarks into smooth, real-time servo motion — no gloves, buttons, or joysticks required.
 
 <p align="center">
-  <img src="docs/images/final_prototype.png" alt="Final assembled prototype" height="320">
+  <img src="final_prototype.png" alt="Final assembled prototype" height="320">
   &nbsp;&nbsp;
-  <img src="docs/images/gesture_demo.png" alt="Live fingertip/pinch tracking" height="320">
+  <img src="gesture_demo.png" alt="Live fingertip/pinch tracking" height="320">
 </p>
 
 ---
@@ -33,7 +33,7 @@ Built for the *Design of Mechatronic Systems (MTE 4108)* sessional, Dept. of Mec
 ## How It Works
 
 <p align="center">
-  <img src="docs/images/block_diagram.png" alt="System block diagram" width="700">
+  <img src="block_diagram.png" alt="System block diagram" width="700">
 </p>
 
 1. **Capture** – A webcam streams live video to a Python pipeline.
@@ -64,9 +64,9 @@ Teleoperation itself uses the **inverse (task-to-joint) direction** — a simple
 ## Hardware
 
 <p align="center">
-  <img src="docs/images/cad_model.png" alt="CAD model in SolidWorks" width="380">
+  <img src="cad_model.png" alt="CAD model in SolidWorks" width="380">
   &nbsp;&nbsp;
-  <img src="docs/images/rviz_simulation.png" alt="RViz / URDF simulation" width="380">
+  <img src="rviz_simulation.png" alt="RViz / URDF simulation" width="380">
 </p>
 
 | # | Component              | Qty | Unit Price (BDT) | Total (BDT) |
